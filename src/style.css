@@ -1,0 +1,50 @@
+body
+{
+background-image: url(imagenes/fondo.jpg)
+}
+.header{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+.centrado{
+    margin:10px auto;
+    margin-block-end: auto;
+    display: flex;
+}
+
+#bienvenidos{
+    justify-content: center;
+}
+
+
+#ingresar{
+    margin-left: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#ingreso{
+    margin-left: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#buttonbuy{
+    margin-left: 630px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:absolute;
+}
+.footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;  ;
+
+}

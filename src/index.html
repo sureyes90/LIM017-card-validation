@@ -6,9 +6,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <section id= "principal">
+      <h1 class="header">RASMUS SHOP</h1>
+      <p>Venta de polos y poleras de tu grupo favorito.</p>
+    <center><img src="imagenes/ropa.png" class="shop"></center> 
+    <center><button id="bienvenidos">bienvenidos</button></center> 
+    </section>
+
+    <section id="welcome" style="display: none">
+      <h1 class="header">FLEX CARD</h1>
+      <img src="imagenes/tarjeta.png" class="centrado" rel="icon">
+      <button id="ingresar" >INGRESAR</button>
+    </section>
+
+    <section id="date" style="display: none">
+      <main>
+        <img src="imagenes/tarjeta.png" class="centrado" rel="icon">
+        <p><strong>INGRESA TU NÚMERO DE TARJETA</strong></p>
+      <!-- puede consistir en una solo palabra o en una pequeña frase -->
+        <input  id ="ingreso"  type="number" placeholder=""  >
+
+        <button id="buttonbuy">validar </button>
+        </main>
+      <footer class="footer">LIMA- PERU 2022</footer>
+    </section>
     <script src="index.js" type="module"></script>
   </body>
 </html>
