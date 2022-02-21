@@ -7,30 +7,33 @@ document.getElementById ("welcome").style.display = "block";
 let btn = document.getElementById ("bienvenidos");
 btn.addEventListener("click",comprobar);
 
-function confirmar (){
-document.getElementById ("welcome").style.display = "none";
-document.getElementById ("date").style.display = "block";
-}
-let  btn1 = document.getElementById("ingresar");
-btn1.addEventListener("click",confirmar);
+//function confirmar (){
 
-let message=document.getElementById("message");
+//}
+//let  btn1 = document.getElementById("ingresar");
+//btn1.addEventListener("click",confirmar);
+
+
 
 function validarTarjeta (){
+//document.getElementById ("welcome").style.display = "none";
+//document.getElementById ("date").style.display = "block";
 let  cardNumber= document.getElementById ("ingreso").value;
-
+let message=document.getElementById("message");
+let hide=document.getElementById ("hide");
 let numberValidator =  validator.isValid(cardNumber);
-
+let maskValidator=  validator.maskify(cardNumber);
 
 if (numberValidator == true){
-
+hide.innerHTML=maskValidator;
     message.innerHTML="";
     message.innerHTML="Tarjeta válida";
-    console.log(numberValidator);
+
 } else  {
+    hide.innerHTML=maskValidator;
     message.innerHTML="";
     message.innerHTML="Su tarjeta no es válida";
-    console.log(numberValidator);
+
 }
 }
 let  btn2 = document.getElementById("buttonbuy");
