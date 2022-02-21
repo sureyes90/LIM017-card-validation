@@ -14,14 +14,27 @@ document.getElementById ("date").style.display = "block";
 let  btn1 = document.getElementById("ingresar");
 btn1.addEventListener("click",confirmar);
 
-function validar (){
-    document.getElementById ("date").style.display = "none";
+let message=document.getElementById("message");
 
+function validarTarjeta (){
 let  cardNumber= document.getElementById ("ingreso").value;
-validator.isValid(cardNumber);
+
 let numberValidator =  validator.isValid(cardNumber);
-alert(numberValidator);
+
+
+if (numberValidator == true){
+
+    message.innerHTML="";
+    message.innerHTML="Tarjeta válida";
+    console.log(numberValidator);
+} else  {
+    message.innerHTML="";
+    message.innerHTML="Su tarjeta no es válida";
+    console.log(numberValidator);
+}
 }
 let  btn2 = document.getElementById("buttonbuy");
-btn2.addEventListener("click",validar);
+btn2.addEventListener("click",validarTarjeta);
+
+
 

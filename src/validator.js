@@ -27,15 +27,27 @@ for (let i=0;i<reverseArray.length;i+=2){
 sumaImpares=sumaImpares + reverseArray[i];
 }
 let sumaTotal=sumaPares+sumaImpares;
-let respuesta;
+
 if(sumaTotal%10==0){
-respuesta=true;
-} else respuesta=false;
-return respuesta;
+return true;
+} else  {
+return false;
+}
   },
   maskify :function (cardNumber){
-  return cardNumber;
-  },
-};
+    let numberCard = cardNumber.length;
+    let mascara =numberCard-4;
+    let ocultar=cardNumber.slice(mascara,numberCard);
+    let mascaraCard;
+if(numberCard > 5){
+mascaraCard = "#".repeat(mascara) + ocultar;
+
+ }else {
+  
+   mascaraCard = cardNumber;
+ }
+  return mascaraCard;
+  }
+}
 export default validator;
 
