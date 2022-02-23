@@ -2,7 +2,6 @@
 const validator = {
   isValid: function (cardNumber){
 // pasar los numeros a un array
-
 let newArray = Array.from(cardNumber);
 
 // los string del array a  numeros
