@@ -26,7 +26,6 @@ alertaTarjeta.innerHTML="";
     message.innerHTML="Tarjeta válida";
 } else  {
     alertaTarjeta.innerHTML="";
-    hide.innerHTML=maskValidator;
     message.innerHTML="";
     message.innerHTML="Su tarjeta no es válida";
 }
