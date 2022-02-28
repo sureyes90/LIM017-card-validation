@@ -1,5 +1,6 @@
 # Tarjeta de crédito válida
 
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)
@@ -16,7 +17,7 @@
 
 ## 1. Preámbulo
 
-El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
+El [algoritmo de Luhn](https://user-images.githubusercontent.com/98664512/156004748-c8b8da63-2c50-4f43-ae9e-cfa498971840.png),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
 se utiliza para validar números de identificación; tales como el IMEI de los
 celulares, tarjetas de crédito, etc.
@@ -226,6 +227,7 @@ En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proc
 para definir el producto final a nivel de experiencia y de interfaz.
 
 * Quiénes son los principales usuarios de producto.
+
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
