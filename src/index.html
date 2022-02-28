@@ -5,46 +5,59 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
- 
-   <section id= "principal">
-      <h1 class="header">RASMUS SHOP</h1>
-    <h1>Venta de polos y poleras de tu grupo favorito.</h1>  
-
-    <div class="contenedor">
-     <div class="prendas" >
-    <img src="imagenes/prenda1.jpg"  width="300" height="300">
-  </div>
-  <div class="prendas" >
-    <img src="imagenes/prenda2.jpg"  width="300" height="300">
-  </div>
-  <div class="prendas" >
-    <img src="imagenes/prenda3.jpg"  width="300" height="300">
-  </div>
-  </div>
-  <br>
-  <br>
-    <button id="bienvenidos">PAGAR</button>
-    </section>
-
-    <section id="welcome" style="display: none">
-      <h1 class="header">FLEX CARD</h1>
-      <img src="imagenes/tarjeta.png" class="centrado" rel="icon">
-      <p><strong>INGRESA TU NÚMERO DE TARJETA</strong></p>
-      
-        <input  id ="ingreso"  type="number" placeholder=""  >
-        <p id="alertaTarjeta"></p>
-        <button id="buttonbuy">validar </button><br>
-        <p id="message"></p>
-        <p id="hide"></p>
-
-    </section>
   
+  <body>
 
-      <footer >
+  <section id="principal" style="display: block" >
+  <header>
+    <nav>
+      <a class="logo nav-link">RASMUS SHOP</a>
+      <ul class="nav-menu">
+      <li class="nav-menu-item">
+        <a href="" class="nav-menu-link nav-link">INICIO</a></li>
+      </ul>
+    </nav>
+  </header> 
+    
+   <div class="contenedor">
+    <div class="prendas" >
+    <img src="imagenes/prenda1.png"  width="300" height="300">
+    <h4 class="description">Camiseta Jezebel Black<br>s/120</h4>
+    </div>
+    <div class="prendas" >
+    <img src="imagenes/prenda2.png"  width="280" height="300">
+    <h4 class="description">Camiseta  amarilla de Jezebel<br>s/120</h4>
+    </div>
+    <div class="prendas" >
+    <img src="imagenes/prenda3.png"  width="250" height="300">
+    <h4 class="description">Sudadera con capucha Jezebel<br>s/200</h4>
+    </div>
+  <h1>Nos alegra que hayas seleccionado tus productos favoritos, nosotros también amamos RASMUS  </h1>
+  <button id="bienvenidos">PAGAR</button>
+</div>
+</section>
+
+<section id="welcome" style="display: none">
+      <div class="tarjetImage">
+        <h1 id="logoTarjet">FLEX CARD</h1>
+        <img src="imagenes/tarjeta.png" class="centrado" rel="icon">
+      </div>
+
+      <div class="formTarjet">
+         <label class="text-message">INGRESA TU NÚMERO DE TARJETA:</label>
+         <input  id ="ingreso"  type="number" placeholder="">
+         <p id="alertaTarjeta"></p>
+         <button id="buttonbuy">validar </button><br>
+         <p id="message"></p>
+         <p id="hide"></p>
+      </div>
+</section>
+    
+    
+    <footer>
       <p class="footer">  LIMA- PERU 2022</p>
     </footer>
-  
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>

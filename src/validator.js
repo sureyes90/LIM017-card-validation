@@ -49,4 +49,3 @@ mascaraCard = "#".repeat(mascara) + ocultar;
   }
 }
 export default validator;
-

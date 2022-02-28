@@ -33,6 +33,3 @@ alertaTarjeta.innerHTML="";
 }
 let  btn2 = document.getElementById("buttonbuy");
 btn2.addEventListener("click",validarTarjeta);
-
-
-
