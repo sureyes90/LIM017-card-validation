@@ -33,3 +33,11 @@ alertaTarjeta.innerHTML="";
 }
 let  btn2 = document.getElementById("buttonbuy");
 btn2.addEventListener("click",validarTarjeta);
+
+function clear(){
+document.getElementById ("message").style.display = "none";
+document.getElementById ("hide").style.display = "none";
+document.getElementById ("number").reset();
+}
+let  btnClear = document.getElementById("clear");
+btnClear.addEventListener("click",clear);

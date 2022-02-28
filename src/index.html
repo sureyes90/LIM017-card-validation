@@ -7,17 +7,16 @@
   </head>
   
   <body>
-
+    <header>
+      <nav>
+        <a class="logo nav-link">RASMUS SHOP</a>
+        <ul class="nav-menu">
+        <li class="nav-menu-item">
+          <a href="" class="nav-menu-link nav-link">INICIO</a></li>
+        </ul>
+      </nav>
+    </header> 
   <section id="principal" style="display: block" >
-  <header>
-    <nav>
-      <a class="logo nav-link">RASMUS SHOP</a>
-      <ul class="nav-menu">
-      <li class="nav-menu-item">
-        <a href="" class="nav-menu-link nav-link">INICIO</a></li>
-      </ul>
-    </nav>
-  </header> 
     
    <div class="contenedor">
     <div class="prendas" >
@@ -45,11 +44,14 @@
 
       <div class="formTarjet">
          <label class="text-message">INGRESA TU NÚMERO DE TARJETA:</label>
+         <form id="number">
          <input  id ="ingreso"  type="number" placeholder="">
+        </form>
          <p id="alertaTarjeta"></p>
          <button id="buttonbuy">validar </button><br>
          <p id="message"></p>
          <p id="hide"></p>
+         <button id="clear">Limpiar</button>
       </div>
 </section>
     
