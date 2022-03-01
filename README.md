@@ -284,8 +284,8 @@ La banda the rasmus iniciara sus conciertos presenciales y   los fans podran usa
 ### La imagen  de  proyecto de baja fidelidad.
 Realice mi primer prototipo en power point aqui se muestran las imagenes.
 
-![imagen text] (https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/prototipo%20de%20baja%20fidelidad.png)
-![imagen text] (https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/prototipo%20de%20baja%20fidelidad%202.png)
+![Prototipo](https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/prototipo%20de%20baja%20fidelidad.png)
+![Prototipo](https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/prototipo%20de%20baja%20fidelidad%202.png)
 
 ## Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 En el inicio de proyecto he recibido feedback como cambios de color en las letras .
@@ -296,8 +296,8 @@ Lograr mi funcionalidad como validar la tarjeta y enmascarar.
 ### Imagen del prototipo final.
 Realice mi prototipo final en figma aqui se muestran los resultados.
 
- ![Prototipo] (https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/FIGMA1.png)
-![prot]  (https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/FIGMA%202.png)
+ ![Prototipo](https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/FIGMA1.png)
+![Prototipo](https://github.com/sureyes90/LIM017-card-validation/blob/main/src/imagenes/FIGMA%202.png)
 
 #### Visualmente (HTML y CSS)
 
