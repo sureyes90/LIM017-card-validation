@@ -41,10 +41,9 @@ return false;
 if(numberCard > 5){
 mascaraCard = "#".repeat(mascara) + ocultar;
 
- }else {
-  
-   mascaraCard = cardNumber;
- }
+}else {
+mascaraCard = cardNumber;
+}
   return mascaraCard;
   }
 }
